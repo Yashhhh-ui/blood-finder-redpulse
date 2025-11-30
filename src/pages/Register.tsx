@@ -123,7 +123,7 @@ const Register = () => {
                       <FormItem>
                         <FormLabel>Age *</FormLabel>
                         <FormControl>
-                          <Input type="number" placeholder="25" {...field} />
+                          <Input type="number" placeholder="Enter your age" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
