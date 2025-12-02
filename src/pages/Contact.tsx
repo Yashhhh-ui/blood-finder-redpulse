@@ -56,7 +56,7 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6 text-primary" />,
       title: "Email",
-      content: "help@bloodfinder.com",
+      content: "redpulse@bloodfinder.com",
       description: "We'll respond within 24 hours",
     },
     {
