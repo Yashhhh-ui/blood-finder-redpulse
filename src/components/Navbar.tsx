@@ -28,8 +28,7 @@ const Navbar = () => {
             <div className="bg-primary rounded-full p-2 group-hover:scale-110 transition-transform">
               <Heart className="h-5 w-5 text-primary-foreground fill-current" />
             </div>
-            <span className="text-xl font-bold text-foreground">RedPulse BloodFinder<span className="text-primary">Finder</span>
-            </span>
+            <span className="text-xl font-bold text-foreground">RedPulse <span className="text-primary">BloodFinder</span></span>
           </Link>
 
           {/* Desktop Navigation */}
