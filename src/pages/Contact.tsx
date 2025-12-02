@@ -50,7 +50,7 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6 text-primary" />,
       title: "Phone",
-      content: "+1 (555) 123-4567",
+      content: "+91 9770248629",
       description: "24/7 Emergency Support",
     },
     {
@@ -187,9 +187,9 @@ const Contact = () => {
                   If you need blood urgently, please call our 24/7 emergency hotline immediately.
                 </p>
                 <Button asChild variant="secondary" size="lg" className="w-full hover-lift">
-                  <a href="tel:+15551234567">
+                  <a href="tel:+919770248629">
                     <Phone className="mr-2 h-5 w-5" />
-                    Call Emergency: +1 (555) 123-4567
+                    Call Emergency: +91 9770248629
                   </a>
                 </Button>
               </CardContent>
