@@ -62,7 +62,7 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
       title: "Address",
-      content: "123 Health Street, Medical District",
+      content: "Infront of Badkul Restraunt, Jabalpur, Raksha",
       description: "Visit us during business hours",
     },
   ];
