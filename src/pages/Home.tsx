@@ -33,13 +33,24 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Parallax */}
-      <section
-        className="relative h-screen flex items-center justify-center parallax-bg"
-        style={{
-          backgroundImage: `linear-gradient(135deg, rgba(220, 38, 38, 0.9), rgba(185, 28, 28, 0.85)), url(${heroImage})`,
-        }}
-      >
-        <div className="container mx-auto px-4 text-center z-10 animate-fade-in">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        {/* Hero Image with priority loading */}
+        <img
+          src={heroImage}
+          alt="Blood donation hero - Save lives through blood donation"
+          fetchPriority="high"
+          className="absolute inset-0 w-full h-full object-cover parallax-bg"
+          style={{ zIndex: 0 }}
+        />
+        {/* Gradient Overlay */}
+        <div 
+          className="absolute inset-0" 
+          style={{ 
+            background: 'linear-gradient(135deg, rgba(220, 38, 38, 0.9), rgba(185, 28, 28, 0.85))',
+            zIndex: 1
+          }}
+        />
+        <div className="container mx-auto px-4 text-center z-10 animate-fade-in" style={{ position: 'relative', zIndex: 10 }}>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-slide-up">
             Save Lives Through
             <br />
